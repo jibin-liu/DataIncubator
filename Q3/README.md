@@ -17,7 +17,7 @@ The maximum number of residential units allowed in a specific zoning districts w
 The calculated number of units were stored under “UnitNumber” field in PLUTO dataset.
 
 ### 3. Explotary Analysis Results
-
+Most of the potential housing units are located in Brooklyn, Bronx, Queens, and Staten Island. In Brooklyn, the potential residential units were mostly located in medium-density residence districts. In Bronx, most of the residential units were located in lower- and medium-density residence districts. However in Queens and Staten Island, most of the units were categorized into lower-density residence districts. When provided the possible expansion of public transportation in these areas and government support for mixed-use residential districts, some of the lower-density residence districts may transfer to medium-density residence districts.
 
 ### 4. Limitations
 In this study, only the vacant land inventory was included. However, there also manufacturing districts and other publicly controlled sites such as municipal parking lots, cleaned brownfields, obsolete buildings, and NYCHA housings can be included as underdeveloped land. The addition of other underdeveloped land can increase the total lot areas for affordable housing, and also gives more opportunities to build mixed residential and commercial communities.
