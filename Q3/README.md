@@ -26,5 +26,5 @@ In this study, only the vacant land inventory was included. However, there also 
 Public requests and social media data can be collected and aggregated by blocks or census tracts to determine the neighborhood with more affordable housing requests. Meanwhile, census income data can also be incorporated in the analysis to help define whether a specific area is suitable for residential or commercial development. In the end, public transportation distribution can help to determine low-, medium-, and higher-density residential development.
 
 ### References
-*Zoning Handbook*, 2011 Edition, New York City Department of City Planning, **2011**
+*Zoning Handbook*, 2011 Edition, New York City Department of City Planning, **2011**   
 *Zoning Resolution*, 2011 Edition, New York City Department of City Planning, **2011**
