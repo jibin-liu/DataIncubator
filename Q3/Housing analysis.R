@@ -1,3 +1,6 @@
+# Data Incubator proposed project
+# Jibin Liu
+# Github repo: https://github.com/liujibin320/DataIncubator
 library(ggplot2)
 
 ## Create functions
@@ -35,7 +38,6 @@ unitCalculate <- function(df) {
     df
 }
 
-
 ## Main body
 # Donwload PLUTO data
 PLUTOUrl <- "http://www.nyc.gov/html/dcp/download/bytes/nyc_pluto_14v2.zip"
@@ -58,7 +60,10 @@ PLUTO2 <- PLUTO[(PLUTO$BldgClass == "V0") |
                     (PLUTO$BldgClass == "V9"), ]
 
 # A table of residential zoning density (Dwelling Unit Factor) was created
-# based on the regulation from "NYC DCP Zoning Handbook".
+# based on the regulation from "NYC DCP Zoning Handbook". Prepared list can
+# be downloaed from "data" folder in Github repo.
+zoningUrl <- "https://github.com/liujibin320/DataIncubator/blob/master/Q3/data/ZoningFARDensity.csv"
+download.file(zoningUrl, "./data/ZoningFARDensity.csv")
 zoningDensity <- read.csv("./data/ZoningFARDensity.csv")
 
 # Calculate number of units
